@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: grpc-springboot
+
+grpc:
+  server:
+    port: 9090
+    inProcessName: test
+  client:
+    hello:
+      address: localhost:9090
+      negotiation-type: plaintext
+
