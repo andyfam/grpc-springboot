@@ -1,5 +1,8 @@
-package com.yufeng.springboot;
+package com.yufeng.springboot.grpc;
 
+import com.yufeng.springboot.grpc.GreetRequest;
+import com.yufeng.springboot.grpc.GreetResponse;
+import com.yufeng.springboot.grpc.GreetServiceGrpc;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

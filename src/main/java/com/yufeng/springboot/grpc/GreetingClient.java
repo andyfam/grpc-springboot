@@ -1,5 +1,8 @@
-package com.yufeng.springboot;
+package com.yufeng.springboot.grpc;
 
+import com.yufeng.springboot.grpc.GreetRequest;
+import com.yufeng.springboot.grpc.GreetResponse;
+import com.yufeng.springboot.grpc.GreetServiceGrpc;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
