@@ -1,4 +1,4 @@
-package com.yufeng.grpcspringboot;
+package com.yufeng.springboot;
 
 import net.devh.boot.grpc.client.autoconfigure.GrpcClientAutoConfiguration;
 import net.devh.boot.grpc.server.autoconfigure.GrpcServerAutoConfiguration;

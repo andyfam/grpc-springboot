@@ -1,6 +1,5 @@
-package com.yufeng.grpcspringboot;
+package com.yufeng.springboot;
 
-import io.micrometer.common.util.StringUtils;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

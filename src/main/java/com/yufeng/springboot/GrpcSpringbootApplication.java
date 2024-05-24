@@ -1,4 +1,4 @@
-package com.yufeng.grpcspringboot;
+package com.yufeng.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

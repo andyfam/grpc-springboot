@@ -1,6 +1,6 @@
 spring:
   application:
-    name: grpc-springboot
+    name: springboot
 
 grpc:
   server:
