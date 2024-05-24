@@ -1,4 +1,4 @@
-package com.yufeng.grpcspringboot;
+package com.yufeng.springboot;
 
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
