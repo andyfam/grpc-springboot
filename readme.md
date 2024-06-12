@@ -56,5 +56,25 @@ protobuf {
 ```
 
 ## usage
-### REST
-### Grpc
+### REST features
+in order to test the REST features, you need to download a client project:
+[github.com/andyfam/my-app](https://github.com/andyfam/my-app),
+because the client project is developed by <code>React</code>, so you need to install <code>Node.js</code> first.
+When you download the client project, open it with some js IDE, like: <code>VS Code</code>.
+Start the springboot first, then start the client project by following the steps:
+- open a command line tool
+- navigate into the root direction of the client project
+- run the command: <code>npm start</code>
+If everything is working correctly, you will see the client application on your browser by the following url:
+[localhost:3000](http://localhost:3000/)
+### Grpc features
+use the Junit to test if Grpc is OK, test method as follows:
+```
+com.yufeng.springboot.grpc.GreetingServiceTest.greet_shouldReturnGreeting
+```
+or you can start the Grpc server by start the springboot, then run the <code>Consumer</code> by browse the following <code>url</code>:
+```
+http://localhost:8080/greet/andy
+```
+if it works, the browser should return <code>Hello, andy!</code>
+
