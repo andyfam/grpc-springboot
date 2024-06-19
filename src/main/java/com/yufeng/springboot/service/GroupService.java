@@ -2,6 +2,7 @@ package com.yufeng.springboot.service;
 
 import com.yufeng.springboot.model.Group;
 import com.yufeng.springboot.model.GroupRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -9,11 +10,8 @@ import java.util.Optional;
 
 @Service
 public class GroupService {
-    private final GroupRepository groupRepository;
-
-    public GroupService(GroupRepository groupRepository) {
-        this.groupRepository = groupRepository;
-    }
+    @Autowired
+    private  GroupRepository groupRepository;
 
     public Collection<Group> groups() {
         return groupRepository.findAll();

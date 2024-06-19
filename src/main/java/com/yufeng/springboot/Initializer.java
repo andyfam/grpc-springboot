@@ -21,7 +21,7 @@ class Initializer implements CommandLineRunner {
 
     @Override
     public void run(String... strings) {
-        Stream.of("Seattle JUG", "Denver JUG", "Dublin JUG",
+        /*Stream.of("Seattle JUG", "Denver JUG", "Dublin JUG",
                 "London JUG").forEach(name ->
                 repository.save(new Group(name))
         );
@@ -34,6 +34,6 @@ class Initializer implements CommandLineRunner {
         djug.setEvents(Collections.singleton(e));
         repository.save(djug);
 
-        repository.findAll().forEach(System.out::println);
+        repository.findAll().forEach(System.out::println);*/
     }
 }
