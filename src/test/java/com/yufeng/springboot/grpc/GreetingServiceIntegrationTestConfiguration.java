@@ -13,10 +13,10 @@ import org.springframework.context.annotation.Configuration;
         GrpcServerFactoryAutoConfiguration.class, // Select server implementation
         GrpcClientAutoConfiguration.class}) // Support @GrpcClient annotation
 public class GreetingServiceIntegrationTestConfiguration {
-    /*
+
     @Bean
     GreetingService greetingService() {
         return new GreetingService();
     }
-     */
+
 }
